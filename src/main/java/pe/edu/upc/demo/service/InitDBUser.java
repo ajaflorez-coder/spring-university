@@ -24,7 +24,7 @@ public class InitDBUser implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
-		/*this.usuarioRepository.deleteAll();
+		this.usuarioRepository.deleteAll();
 		this.authorityRepository.deleteAll();
 		Usuario juan = new Usuario();		
 		juan.setUsername("juan");
@@ -50,6 +50,6 @@ public class InitDBUser implements CommandLineRunner {
 		manager.addAuthority("ACCESS_REST1");
 		
 		List<Usuario> usuarios = Arrays.asList(juan, admin, manager);
-		this.usuarioRepository.saveAll(usuarios);*/
+		this.usuarioRepository.saveAll(usuarios);
 	}
 }
