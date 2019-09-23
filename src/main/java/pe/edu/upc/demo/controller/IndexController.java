@@ -17,5 +17,4 @@ public class IndexController {
 	public String index2() {
 		return "inicio2";
 	}
-
 }
